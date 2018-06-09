@@ -12,3 +12,24 @@ Switch to another branch with:
 create a new branch and switch to it with :
 	git checkout -b <branch name>
 
+Branches are useful for concurrent development of independent features.
+Branch names can have a path-like names to help with organization.
+
+"git-flow" is a popular way to work with git that prescribes branch naming conventions.  For example:
+
+	master/
+	develop/
+	feature/dbRefactor
+	feature/user-themes
+	feature/richTextEditors
+	release/v1.0
+	release/v1.2
+	release/v1.3
+	hotfix/v1.3.1
+
+
+
+
+
+
+
