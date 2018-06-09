@@ -1,0 +1,35 @@
+Your workspace can be "on" a single branch at any given time.  
+The state of your workspace folder reflects the contents of this branch.  
+
+See which branches exist with:
+	git branch -l
+
+You should see at least 1 branch called "master". Every repo is created with at least 1 branch called master.
+
+Switch to another branch with:
+	git checkout <branch name>
+
+create a new branch and switch to it with :
+	git checkout -b <branch name>
+
+Branches are useful for concurrent development of independent features.
+Branch names can have a path-like names to help with organization.
+
+"git-flow" is a popular way to work with git that prescribes branch naming conventions.  For example:
+
+	master/
+	develop/
+	feature/dbRefactor
+	feature/user-themes
+	feature/richTextEditors
+	release/v1.0
+	release/v1.2
+	release/v1.3
+	hotfix/v1.3.1
+
+
+
+
+
+
+
