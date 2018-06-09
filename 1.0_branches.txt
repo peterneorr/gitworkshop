@@ -1,0 +1,14 @@
+Your workspace can be "on" a single branch at any given time.  
+The state of your workspace folder reflects the contents of this branch.  
+
+See which branches exist with:
+	git branch -l
+
+You should see at least 1 branch called "master". Every repo is created with at least 1 branch called master.
+
+Switch to another branch with:
+	git checkout <branch name>
+
+create a new branch and switch to it with :
+	git checkout -b <branch name>
+
