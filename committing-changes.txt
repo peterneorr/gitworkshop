@@ -1,0 +1,8 @@
+Once you've selected all the files that changed added them to the staging area you are ready to commit.
+The commit command is what creates a changeset in git's history.
+	git commit
+	git commit -m "Fixes bug 314"
+
+You can see a log of commits with the log command.
+	git log
+	

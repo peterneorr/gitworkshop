@@ -1,0 +1,18 @@
+Git tracks files in your working directory.
+
+The working directory is where you cloned (or created) the git repository.
+
+Make your edits with tools of your choice:  Visual Studio, Notepad++, vi, etc...
+
+Add your changes to the _staging area_.     
+	git add <file> 
+
+Note:  You can stage every file that has changed with the special "dot" syntax:
+	git add .
+
+Git rm does the opposite.  It removes a file from the staging area.
+
+
+Note:  Visual studio uses the words "include" and "exclude".  What is really happening is "git add" and "git rm"
+
+Note:  You can prevent git from monitoring specific files (e.g. library dependencies, temporary  files or build artifacts) by adding them by name to a special '.gitignore' file.  This file should be added.
