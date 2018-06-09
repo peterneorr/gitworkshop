@@ -1,0 +1,17 @@
+Because branching is so common in git, merges are done frequently.
+	git merge <source branch>
+
+The destination is always your current branch.  
+
+Merging all the progress from the "foo" feature branch back into main "develop" branch might look like this:
+
+
+Switch to develop branch:
+	git checkout develop
+
+Merge foo branch into develop
+	git merge feature/foo
+
+Most of the time, git will automatically resolve any merge conflicts and commit a new changeset that is the result of the merge.
+When git cannot resolve conflicts, you will have to use a merge tool and commit.
+
