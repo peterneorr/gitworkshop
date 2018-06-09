@@ -1,0 +1,18 @@
+Once you've selected all the files that changed added them to the staging area you are ready to commit.
+The commit command is what creates a changeset in git's history.
+	git commit
+	git commit -m "Fixes bug 314"
+
+
+
+You can review git's history with the log of commits with the log command.
+	git log
+	git log --graph
+	git log --oneline
+
+
+Every changeset in git is assigned a SHA-1 hash.  
+You can review changes from any particular change by specifing this hash.  Usually git commands can figure out what you mean with just the first few characters of a hash:
+	git show <hash>
+	git show --name-only <hash>  
+	
