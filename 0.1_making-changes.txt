@@ -1,8 +1,8 @@
 
-
 Git tracks files in your working directory.
 
 The working directory is where you cloned (or created) the git repository.  
+	git clone https://github.com/peterneorr/gitworkshop.git
 
 Make your edits with tools of your choice:  Visual Studio, Notepad++, vi, etc...
 
