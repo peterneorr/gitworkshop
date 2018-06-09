@@ -12,5 +12,7 @@ You can review git's history with the log of commits with the log command.
 
 
 Every changeset in git is assigned a SHA-1 hash.  
-You can review the changes from any particular change by specifing this hash.  Usually git can figure out what you mean with just the first few characters of a hash:
+You can review changes from any particular change by specifing this hash.  Usually git commands can figure out what you mean with just the first few characters of a hash:
 	git show <hash>
+	git show --name-only <hash>  
+	
